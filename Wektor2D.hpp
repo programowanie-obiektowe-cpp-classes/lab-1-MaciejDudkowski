@@ -10,7 +10,6 @@ public:
 
     Wektor2D(double a, double b) : x(a), y(b)
     {
-        cout << "Konstruktor dwuargumentowy: (" << x << ", " << y << ")" << endl;
     }
 
     void setX(double a) { x = a; }
